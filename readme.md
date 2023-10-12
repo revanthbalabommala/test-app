@@ -25,3 +25,16 @@ Commands to remove exiting remote in GIT
 -> git remote remove origin
 -> validate it with git remote -v
 -> git remote add origin https://github.com/revanthbalabommala/test-app.git (to add new remote)
+
+How to pull docker image in compute engine:
+
+
+docker pull gcr.io/carbon-dev-392917/test-project:1.0
+
+docker run -p8080:8080 gcr.io/carbon-dev-392917/test-project:1.0
+
+After Deployment test it:
+
+http://35.238.124.157:8080/test-svc/app
+
+
